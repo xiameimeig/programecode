@@ -1,0 +1,5 @@
+f = open('d.txt','r+')
+ret = f.read()
+list_new = eval(ret)
+print(list_new)
+print(type(list_new))
